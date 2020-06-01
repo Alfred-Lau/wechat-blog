@@ -1,0 +1,5 @@
+/* components/article/article.wxss */
+
+.article-item{
+  display: block;
+}

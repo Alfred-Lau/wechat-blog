@@ -1,0 +1,10 @@
+<!--pages/profile/profile.wxml-->
+<view class="profile">
+  <text class="title">挑灯看剑</text>
+</view>
+
+<view class="rencent">
+  <text>最近活动</text>
+  <text>个人经历</text>
+
+</view>

@@ -1,0 +1,33 @@
+<!--pages/playlist/playlist.wxml-->
+<swiper indicator-dots="true" interval="3000" autoplay="true" duration="1000">
+  <block wx:for='{{swiperImageUrl}}'>
+    <swiper-item>
+      <image src="{{item.url}}" mode="widthFix" class="img"></image> 
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="playlist-container">
+
+  <text class='p-title'>正在开发的项目</text>
+  <block wx:for='{{playList}}'>
+    <xx-playlist playList='{{item}}' />
+  </block>
+</view>
+
+
+<view class="playlist-container">
+
+  <text class='p-title'>正在写的文章</text>
+  <block wx:for='{{articleList}}'>
+    {{item.title}}
+    <!-- <xx-playlist playList='{{item}}' /> -->
+    <xx-article article='{{item}}' />
+  </block>
+</view>
+
+
+<view>
+  <text>热点信息</text>
+</view>
+

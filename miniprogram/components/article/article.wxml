@@ -1,0 +1,8 @@
+<!--components/article/article.wxml-->
+<text>components/article/article.wxml</text>
+
+<view class="article-item">
+  <image src='{{article.picUrl}}' class="article-img"></image>
+  <text class="article-name">{{article.name}}</text>
+  <text class="article-count">{{article.playCount}}</text>
+</view>
