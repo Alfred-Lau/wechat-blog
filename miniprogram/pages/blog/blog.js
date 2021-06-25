@@ -7,6 +7,12 @@ Page({
   data: {
 
   },
+  // 打开官网
+  openWebsite :function(){
+    wx.navigateTo({
+      url: './website.wxml',
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载

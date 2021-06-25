@@ -1,13 +1,18 @@
 /* pages/profile/profile.wxss */
 
 .profile{
-  background-color: #ccc;
-  color: #232232;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 10rpx;
 }
 
-.profile .title {
-  font-size: 14px;
+
+.p-title {
+  font-size: 20px;
+  line-height: 32px;
+  height: 32px;
+  text-align: center;
+  color: #3c3c3c;
 }

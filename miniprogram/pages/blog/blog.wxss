@@ -1,1 +1,16 @@
 /* pages/blog/blog.wxss */
+
+.title {
+  text-align: center;
+
+  font-size: 30px;
+}
+
+.content {
+  padding: 40px;
+}
+
+.content-link {
+  color: cornflowerblue;
+  text-decoration:none;
+}

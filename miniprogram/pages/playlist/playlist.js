@@ -7,18 +7,24 @@ Page({
   data: {
     openid:'',
     swiperImageUrl:[
-      {url: 'http://p1.music.126.net/oeH9rlBAj3UNkhOmfog8Hw==/109951164169407335.jpg'},
-      {url: 'http://p1.music.126.net/xhWAaHI-SIYP8ZMzL9NOqg==/109951164167032995.jpg'},
-      {url: 'http://p1.music.126.net/Yo-FjrJTQ9clkDkuUCTtUg==/109951164169441928.jpg'}
+      {url: 'https://gw.alipayobjects.com/mdn/rms_ed9d16/afts/img/A*2z-FT7Tqv9YAAAAAAAAAAAAAARQnAQ'}
     ],
-    playList:[{"_id":"08560c9e5d042a5c0174f1ca26f1d7b2","copywri天气转热er":"热门推荐","playCount":1.4641238e+06,"highQuality":false,"type":0.0,"canDislike":true,"name":"天气转热了，适合听点凉爽的歌。","alg":"cityLevel_unknow","createTime":{"$date":"2019-06-14T23:14:36.746Z"},"id":2.780381322e+09,"picUrl":"https://p2.music.126.net/Biky7TE4CtW6NjGuqoUKZg==/109951164041827987.jpg","trackCount":53.0},
-    {"_id":"08560c9e5d042a5c0174f1da7aa357aa","highQuality":false,"copywriter":"热门推荐","canDislike":true,"playCount":622822.6,"id":2.740107647e+09,"name":"「时空潜行」囿于昼夜的空想主义者","type":0.0,"alg":"cityLevel_unknow","createTime":{"$date":"2019-06-14T23:14:36.955Z"},"picUrl":"https://p2.music.126.net/Q0eS0avwGK04LufWM7qJug==/109951164116217181.jpg","trackCount":20.0},
-    {"_id":"08560c9e5d042a5c0174f1de21c7e79e","id":2.828842343e+09,"type":0.0,"name":"粤语情诗：与你听风声，观赏过夜星","picUrl":"https://p2.music.126.net/K9IcG8cU6v4_SwuQ_x2xMA==/109951164124604652.jpg","highQuality":false,"alg":"cityLevel_unknow","playCount":1.785097e+06,"trackCount":52.0,"copywriter":"热门推荐","canDislike":true,"createTime":{"$date":"2019-06-14T23:14:36.982Z"}},
-    {"_id":"08560c9e5d042a5d0174f1e67d1bb16f","playCount":7.719329e+06,"highQuality":false,"trackCount":950.0,"alg":"cityLevel_unknow","id":9.17794768e+08,"type":0.0,"name":"翻唱简史：日本四百首","canDislike":true,"createTime":{"$date":"2019-06-14T23:14:37.037Z"},"copywriter":"热门推荐","picUrl":"https://p2.music.126.net/NczCuurE5eVvObUjssoGjQ==/109951163788653124.jpg"},
-    {"_id":"08560c9e5d042a5d0174f1ea32c4c288","type":0.0,"copywriter":"热门推荐","highQuality":false,"createTime":{"$date":"2019-06-14T23:14:37.097Z"},"id":2.201879658e+09,"alg":"cityLevel_unknow","playCount":1.06749088e+08,"name":"你的青春里有没有属于你的一首歌？","picUrl":"https://p2.music.126.net/wpahk9cQCDtdzJPE52EzJQ==/109951163271025942.jpg","canDislike":true,"trackCount":169.0},
-    {"_id":"08560c9e5d0829820362a79f4b049d2d","alg":"cityLevel_unknow","name":"「乐队的夏天」参赛歌曲合集丨EP04更新","highQuality":false,"picUrl":"http://p2.music.126.net/2WE5C2EypEwLJd2qXFd4cw==/109951164086686815.jpg","trackCount":158.0,"createTime":{"$date":"2019-06-18T00:00:02.553Z"},"copywriter":"热门推荐","playCount":1.5742008e+06,"canDislike":true,"id":2.79477263e+09,"type":0.0}
-    ],
-    articleList:[{id:1,title:'Vue 的响应式实现'},{id:2,title:'Vue 的响应式实现'},{id:3,title:'Vue 的响应式实现'},{id:4,title:'Vue 的响应式实现'},{id:5,title:'Vue 的响应式实现'},{id:6,title:'Vue 的响应式实现'}]
+    jdList:[{
+      id:1,
+      title:'高级前端工程师', 
+      jobDescription:['1. 负责 OceanBase 整体产品的前端方案设计和实现。','2. 负责 OceanBase 前端基础框架和工程服务相关设计和实现，包括但不限于 Ant Design、AntV、Umi、Dva、Egg 等开源项目的使用合作，以及 SQL 编辑器等前端重度产品方案研发实现。','3. 联合产品团队、运营团队、研发团队，寻找前端机会价值点对业务产生增值作用。'], 
+      basic:['发布时间: 2021-06-22','工作地点: 北京/杭州','工作年限: 3年以上','所属部门: 蚂蚁集团','学历: 本科'], 
+      requirement:['1. 熟练掌握 JavaScript、HTML、CSS 等原生前端基础技术，熟悉相关规范。','2. 熟练掌握 React / Vue / Angular 等常用前端框架以及配套社区项目（redux / rxjs / …）。','3. 对前端工程化有一定理解，熟练掌握 Webpack / Grunt / Gulp 等构建工具的使用和配置。','4. 了解不同浏览器平台的特性，能够很好地解决兼容问题，具备良好的 UI 交互实现能力。','5. 具备强烈的技术进取心，有良好的沟通与合作精神，拥有优秀的问题分析及解决能力。'],
+      more:['1. 有数据库相关开发使用经验。','2. 同时具备 PC/无线 端的开发能力，有成功的中大型 Web 产品、移动应用开发经验。','3. 有服务端（Node.js / Java / PHP / Python等）相关开发经验。','4. 有大数据处理（Hadoop / Hive / Spark / Impala等）相关开发经验。','5. 有机器学习/深度学习、自然语言处理等人工智能相关开发经验。','6. 有优秀的独立开源项目或深度参与过业界知名的开源项目。']
+    },
+      {
+        id:2,
+        title:'前端专家',
+        jobDescription:['1. 负责 OceanBase 整体产品的前端方案设计和实现。','2. 负责 OceanBase 前端基础框架和工程服务相关设计和实现，包括但不限于 Ant Design、AntV、Umi、Dva、Egg 等开源项目的使用合作，以及 SQL 编辑器等前端重度产品方案研发实现。','3. 联合产品团队、运营团队、研发团队，寻找前端机会价值点对业务产生增值作用。'], 
+        basic:['发布时间: 2021-06-22','工作地点: 北京/杭州','工作年限: 3年以上','所属部门: 蚂蚁集团','学历: 本科'], 
+        requirement:['1. 熟练掌握 JavaScript、HTML、CSS 等原生前端基础技术，熟悉相关规范。','2. 熟练掌握 React / Vue / Angular 等常用前端框架以及配套社区项目（redux / rxjs / …）。','3. 对前端工程化有一定理解，熟练掌握 Webpack / Grunt / Gulp 等构建工具的使用和配置。','4. 了解不同浏览器平台的特性，能够很好地解决兼容问题，具备良好的 UI 交互实现能力。','5. 具备强烈的技术进取心，有良好的沟通与合作精神，拥有优秀的问题分析及解决能力。'],
+        more:['1. 有数据库相关开发使用经验。','2. 同时具备 PC/无线 端的开发能力，有成功的中大型 Web 产品、移动应用开发经验。','3. 有服务端（Node.js / Java / PHP / Python等）相关开发经验。','4. 有大数据处理（Hadoop / Hive / Spark / Impala等）相关开发经验。','5. 有机器学习/深度学习、自然语言处理等人工智能相关开发经验。','6. 有优秀的独立开源项目或深度参与过业界知名的开源项目。']
+      }]
   },
 
   /**

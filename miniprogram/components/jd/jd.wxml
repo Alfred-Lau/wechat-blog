@@ -1,0 +1,49 @@
+<!--components/jd.wxml-->
+
+<view class="jd-item">
+
+  <text class="jd-item-title">
+  {{jd.title}}
+  </text>
+
+  <view class="jd-item-block">
+    <view class="title">基础信息</view>
+    <block wx:for="{{jd.basic}}">
+      <view  class="left">
+      {{item}}
+
+      </view>
+    </block>
+  </view>
+
+  <view class="jd-item-block">
+    <view class="title">职位描述</view>
+    <block wx:for="{{jd.jobDescription}}">
+      <view  class="left">
+      {{item}}
+      </view>
+    </block>
+
+  </view>
+
+  <view class="jd-item-block">
+    <view class="title">职位要求</view>
+    <block wx:for="{{jd.requirement}}">
+      <view  class="left">
+      {{item}}
+      </view>
+    </block>
+  </view>
+
+  <view class="jd-item-block">
+    <view class="title">加分项</view>
+    <block wx:for="{{jd.more}}" >
+      <view class="left">
+      {{item}}
+      </view>
+    </block>
+  </view>
+
+  
+</view>
+

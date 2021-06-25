@@ -16,19 +16,19 @@
     "selectedColor":"#d43c43",
     "list":[{
       "pagePath":"pages/playlist/playlist",
-      "text":"首页",
-      "iconPath":"images/music.png",
-      "selectedIconPath":"images/music-actived.png"
+      "text":"招聘",
+      "iconPath":"images/ob-icon.png",
+      "selectedIconPath":"images/ob-icon.png"
     },{
       "pagePath": "pages/blog/blog",
-      "text": "归档",
-      "iconPath": "images/blog.png",
-      "selectedIconPath": "images/blog-actived.png"
+      "text": "OceanBase",
+      "iconPath": "images/ob-icon.png",
+      "selectedIconPath": "images/ob-icon.png"
     },{
       "pagePath": "pages/profile/profile",
-      "text": "关于我",
-      "iconPath": "images/profile.png",
-      "selectedIconPath": "images/profile-actived.png"
+      "text": "团队动态",
+      "iconPath": "images/ob-icon.png",
+      "selectedIconPath": "images/ob-icon.png"
     }]
   },
   "sitemapLocation": "sitemap.json"

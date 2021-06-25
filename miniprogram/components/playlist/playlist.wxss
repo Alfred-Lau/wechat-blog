@@ -1,10 +1,9 @@
 /* components/playlist/playlist.wxss */
 
 .playList-item {
-  width: 220rpx;
   padding-bottom: 20rpx;
   position: relative;
-
+  width: 100%;
   font-size: 12px;
   line-height: 18px;
   color: darkgrey;

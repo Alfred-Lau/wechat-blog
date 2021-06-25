@@ -1,3 +1,10 @@
 <!--pages/blog/blog.wxml-->
-<text>归档</text>
+<view class='title'>关于OceanBase</view>
+
+<view class="content">
+  想要了解更多，请访问 https://www.oceanbase.com/
+  <view class="content-link">
+    <text  bindtap="openWebsite">OceanBase -  让数据的使用更简单</text> 
+  </view>
+</view>
 

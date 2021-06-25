@@ -1,0 +1,25 @@
+/* components/jd.wxss */
+
+.jd-item {
+  margin: 20px;
+}
+
+.jd-item-title {
+  font-size: 20px;
+}
+
+.jd-item-block {
+  padding: 20px 10px;
+}
+
+.left {
+  text-align: left;
+  line-height: 24px;
+}
+
+.title {
+  text-align: left;
+  color: #333;
+  font-size: 18px;
+  padding-bottom: 10px;
+}

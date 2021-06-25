@@ -1,10 +1,11 @@
 <!--pages/profile/profile.wxml-->
+
+<text class='p-title'>团队动态</text>
+
 <view class="profile">
-  <text class="title">挑灯看剑</text>
+  {{!playList.length && '暂无动态'}}
+  <block wx:for='{{playList}}'>
+    <xx-playlist playList='{{item}}' />
+  </block>
 </view>
 
-<view class="rencent">
-  <text>最近活动</text>
-  <text>个人经历</text>
-
-</view>
