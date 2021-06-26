@@ -2,10 +2,6 @@
 
 <view class="jd-item">
 
-  <text class="jd-item-title">
-  {{jd.title}}
-  </text>
-
   <view class="jd-item-block">
     <view class="title">基础信息</view>
     <block wx:for="{{jd.basic}}">

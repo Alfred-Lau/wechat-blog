@@ -21,4 +21,5 @@
 }
 .jd-block{
   margin: 20px 30px;
+  color: #333;
 }

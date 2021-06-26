@@ -1,4 +1,6 @@
 <!--pages/playlist/playlist.wxml-->
+
+
 <swiper  interval="3000" autoplay="true" duration="1000" class="swiper">
   <block wx:for='{{swiperImageUrl}}'>
     <swiper-item>
@@ -8,18 +10,32 @@
 </swiper>
 
 
+<view class="padding-sm">
+    <view class="bg-gradual-orange padding radius text-center shadow-blur">
+      <view class="text-lg">我们期待这样的你</view>
+    </view>
+  </view>
+
+
 
 
 <view class="jd-container">
-
-  <text class='p-title'>我们期待这样的你</text>
-  <block wx:for='{{jdList}}' class="jd-item-wrapper">
-    <xx-jd jd='{{item}}' />
-  </block>
+  <van-collapse accordion value="{{ activeName }}" bind:change="onChange" wx:for='{{jdList}}'>
+    <van-collapse-item title='{{item.title}}' name="{{item.id}}">
+      <xx-jd jd='{{item}}' />
+    </van-collapse-item>
+  </van-collapse>
+  
 </view>
 
+<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class='margin-top-lg round bg-green shadow'> 聊一聊 </button>
+<!-- <block wx:else>
+      <view class='text-center'>
+        <view class="cu-avatar xl round solids" style="background-image:url({{userInfo.avatarUrl}})"></view>
+        <view class="padding">{{userInfo.nickName}}</view>
+      </view>
+    </block> -->
 
 <view class="jd-block">
-  <view> 联系人：千帐 </view>
-  <view> 联系方式：qianzhang.lj@antgroup.com </view>
+  <view class="text-shadow"> 联系方式：qianzhang.lj@antgroup.com </view>
 </view>

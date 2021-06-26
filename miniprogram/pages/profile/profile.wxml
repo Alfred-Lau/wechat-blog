@@ -1,11 +1,119 @@
 <!--pages/profile/profile.wxml-->
 
-<text class='p-title'>团队动态</text>
-
-<view class="profile">
-  {{!playList.length && '暂无动态'}}
-  <block wx:for='{{playList}}'>
-    <xx-playlist playList='{{item}}' />
-  </block>
+<view class="cu-bar search bg-white">
+    <view class="search-form round">
+      <text class="cuIcon-search"></text>
+      <input type="text" placeholder="搜索图片、文章、视频" confirm-type="search"></input>
+    </view>
+    <view class="action">
+      <button class="cu-btn bg-green shadow-blur round">搜索</button>
+    </view>
+  </view>
+  
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">花径不曾缘客扫，蓬门今始为君开</view>
+    </view>
+    <view class="content">
+      <image src="https://gw.alipayobjects.com/mdn/rms_ed9d16/afts/img/A*2z-FT7Tqv9YAAAAAAAAAAAAAARQnAQ" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content"> 花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">团队文化</view>
+          <view class="cu-tag bg-green light sm round">招聘</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">花径不曾缘客扫，蓬门今始为君开</view>
+    </view>
+    <view class="content">
+      <image src="https://gw.alipayobjects.com/mdn/rms_ed9d16/afts/img/A*2z-FT7Tqv9YAAAAAAAAAAAAAARQnAQ" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content"> 花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">团队文化</view>
+          <view class="cu-tag bg-green light sm round">招聘</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">花径不曾缘客扫，蓬门今始为君开</view>
+    </view>
+    <view class="content">
+      <image src="https://gw.alipayobjects.com/mdn/rms_ed9d16/afts/img/A*2z-FT7Tqv9YAAAAAAAAAAAAAARQnAQ" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content"> 花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">团队文化</view>
+          <view class="cu-tag bg-green light sm round">招聘</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">花径不曾缘客扫，蓬门今始为君开</view>
+    </view>
+    <view class="content">
+      <image src="https://gw.alipayobjects.com/mdn/rms_ed9d16/afts/img/A*2z-FT7Tqv9YAAAAAAAAAAAAAARQnAQ" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content"> 花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">团队文化</view>
+          <view class="cu-tag bg-green light sm round">招聘</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">花径不曾缘客扫，蓬门今始为君开</view>
+    </view>
+    <view class="content">
+      <image src="https://gw.alipayobjects.com/mdn/rms_ed9d16/afts/img/A*2z-FT7Tqv9YAAAAAAAAAAAAAARQnAQ" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content"> 花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">团队文化</view>
+          <view class="cu-tag bg-green light sm round">招聘</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">花径不曾缘客扫，蓬门今始为君开</view>
+    </view>
+    <view class="content">
+      <image src="https://gw.alipayobjects.com/mdn/rms_ed9d16/afts/img/A*2z-FT7Tqv9YAAAAAAAAAAAAAARQnAQ" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content"> 花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">团队文化</view>
+          <view class="cu-tag bg-green light sm round">招聘</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item shadow">
+    <view class="title">
+      <view class="text-cut">花径不曾缘客扫，蓬门今始为君开</view>
+    </view>
+    <view class="content">
+      <image src="https://gw.alipayobjects.com/mdn/rms_ed9d16/afts/img/A*2z-FT7Tqv9YAAAAAAAAAAAAAARQnAQ" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content"> 花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开花径不曾缘客扫，蓬门今始为君开</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">团队文化</view>
+          <view class="cu-tag bg-green light sm round">招聘</view>
+        </view>
+      </view>
+    </view>
+  </view>
 </view>
-
