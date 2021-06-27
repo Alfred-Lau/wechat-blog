@@ -21,7 +21,8 @@
 
 <view class="jd-container">
   <van-collapse accordion value="{{ activeName }}" bind:change="onChange" wx:for='{{jdList}}'>
-    <van-collapse-item title='{{item.title}}' name="{{item.id}}">
+    <van-collapse-item name="{{item.id}}" >
+      <view slot="title" class="jd-item-title">{{item.title}}</view>
       <xx-jd jd='{{item}}' />
     </van-collapse-item>
   </van-collapse>

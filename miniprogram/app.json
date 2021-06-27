@@ -16,19 +16,19 @@
     "selectedColor":"#d43c43",
     "list":[{
       "pagePath":"pages/playlist/playlist",
-      "text":"招聘",
-      "iconPath":"images/ob-icon.png",
-      "selectedIconPath":"images/ob-icon.png"
+      "text":"首页",
+      "iconPath":"images/profile.png",
+      "selectedIconPath":"images/profile.png"
     },{
       "pagePath": "pages/blog/blog",
-      "text": "OceanBase",
-      "iconPath": "images/ob-icon.png",
-      "selectedIconPath": "images/ob-icon.png"
+      "text": "看点",
+      "iconPath": "images/profile.png",
+      "selectedIconPath": "images/profile.png"
     },{
       "pagePath": "pages/profile/profile",
-      "text": "团队动态",
-      "iconPath": "images/ob-icon.png",
-      "selectedIconPath": "images/ob-icon.png"
+      "text": "分享",
+      "iconPath": "images/profile.png",
+      "selectedIconPath": "images/profile.png"
     }]
   },
   "usingComponents": {

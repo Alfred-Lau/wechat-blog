@@ -16,7 +16,8 @@ Page({
     activeName: '1',
     openid:'',
     swiperImageUrl:[
-      {url: 'https://gw.alipayobjects.com/mdn/rms_ed9d16/afts/img/A*2z-FT7Tqv9YAAAAAAAAAAAAAARQnAQ'}
+      {url: 'https://gw.alipayobjects.com/mdn/rms_ed9d16/afts/img/A*2z-FT7Tqv9YAAAAAAAAAAAAAARQnAQ'},
+      {url: 'https://lazy-minus-your-intelligence.oss-cn-qingdao.aliyuncs.com/blog/bgimgs/bg.jpg'}
     ],
     jdList:[{
       id:1,

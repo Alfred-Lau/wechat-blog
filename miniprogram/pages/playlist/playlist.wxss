@@ -6,9 +6,11 @@
 }
 
 .jd-container {
-  padding-top: 10px;
-  text-align: center;
   background-color: #fff;
+}
+
+.jd-item-title {
+  font-size: 18px;
 }
 
 
